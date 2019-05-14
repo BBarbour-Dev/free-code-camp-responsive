@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+  background: #654ea3; /* fallback for old browsers */
+  background: linear-gradient(to right, #b18597, #654ea3) no-repeat center; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.main {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.hero img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  height: auto;
+}
+
+.bar {
+  top: 0;
+  right: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.title,
+.caption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: auto;
+  margin: 3rem;
+}
+
+.title {
+  color: #fafafa;
+  line-height: 1;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  text-shadow: horizontal-offset vertical-offset blur color;
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.caption {
+  color: #fafafa;
+  line-height: 1;
+  font-size: 1.25rem;
+}
+
+.tribute {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tribute p {
+  color: #ffdd57;
+}
+
+.tribute a {
+  color: rgb(185, 161, 65);
+  text-decoration: underline;
+  text-transform: uppercase;
+}
