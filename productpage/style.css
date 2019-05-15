@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+  background: #654ea3; /* fallback for old browsers */
+  background: linear-gradient(to right, #b18597, #654ea3) no-repeat center; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav {
+  border: 1px solid rgba(54, 54, 54, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  color: #fafafa;
+  display: flex;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.75);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-link:hover {
+  color: #ffdd57;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 1rem;
+  flex-wrap: wrap;
+  margin-left: auto;
+  align-content: center;
+}
+
+nav li {
+  padding-right: 1rem;
+}
+
+.logo {
+  align-self: center;
+  margin-left: 1rem;
+  padding: 1rem;
+}
+
+section {
+  margin-top: 20vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+section div {
+  margin-bottom: 10vh;
+}
+
+section h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #fafafa;
+  text-shadow: horizontal-offset vertical-offset blur color;
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.stones img {
+  width: 100%;
+}
+
+.form-wrapper {
+  color: #fafafa;
+  border: 1px solid #363636;
+  background: rgba(0, 0, 0, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 5px 4px 15px 1px rgba(46, 46, 46, 1);
+  width: 100%;
+}
+
+label {
+  display: block;
+}
+
+input {
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 100%;
+  border: 1px solid #363636;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  border: 1px solid #fafafa;
+  background-color: #363636;
+  text-transform: uppercase;
+  color: #fafafa;
+  height: 2rem;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  section {
+    width: 100%;
+  }
+
+  .form-wrapper {
+    width: 50%;
+  }
+}
