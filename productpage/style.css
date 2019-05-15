@@ -115,4 +115,8 @@ input {
   .form-wrapper {
     width: 100%;
   }
+
+  nav li {
+    flex: 2;
+  }
 }
