@@ -9,7 +9,6 @@ body {
 }
 
 nav {
-  border: 1px solid rgba(54, 54, 54, 0.75);
   position: fixed;
   top: 0;
   left: 0;
@@ -17,7 +16,6 @@ nav {
   width: 100%;
   color: #fafafa;
   display: flex;
-  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.75);
 }
 
 .nav-link {
@@ -82,8 +80,8 @@ section h1 {
   margin-right: auto;
   padding: 1rem;
   border-radius: 5px;
-  box-shadow: 5px 4px 15px 1px rgba(46, 46, 46, 1);
-  width: 100%;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.75);
+  width: 60%;
 }
 
 label {
@@ -115,6 +113,6 @@ input {
   }
 
   .form-wrapper {
-    width: 50%;
+    width: 100%;
   }
 }
