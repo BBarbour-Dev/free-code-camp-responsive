@@ -1,0 +1,88 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Should Thanos Purge?</title>
+</head>
+
+<body>
+    <div class="form-wrapper">
+        <h1 id="title">Should Thanos Purge?</h1>
+        <p id="description">
+            Your opinion on whether or not Thanos should eliminate 50% of all living
+            beings.
+        </p>
+        <form action="/" id="survey-form">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" name="name" id="name" placeholder="Thanos" required />
+            <label for="email" id="email-label">Email</label>
+            <input type="email" name="email" id="email" placeholder="thanos@space.com" required />
+
+            <label for="purge-percent" id="number-label">What percentage of life should be eliminated?</label>
+            <input type="number" name="purge-percent" min="1" max="100" id="number" placeholder="50" required />
+
+            <label for="planets">Which should be purged first?</label>
+
+            <select name="plance" id="dropdown" required>
+                <option value="Xandar">Xandar</option>
+                <option value="Earth">Earth</option>
+                <option value="Knowhere">Knowhere</option>
+                <option value="Hala">Hala</option>
+                <option value="Asgard">Asgard</option>
+            </select>
+
+            <legend>Which Infinty Stone should Thanos retrieve first?</legend>
+            <div class="group">
+                <div>
+                    <input type="radio" name="stones" value="Power" id="power" checked />
+                    <label for="power">Power</label>
+                </div>
+                <div>
+                    <input type="radio" name="stones" value="Space" id="space" />
+                    <label for="space">Space</label>
+                </div>
+                <div>
+                    <input type="radio" name="stones" value="Mind" id="mind" />
+                    <label for="mind">Mind</label>
+                </div>
+                <div>
+                    <input type="radio" name="stones" value="Reality" id="reality" />
+                    <label for="reality">Reality</label>
+                </div>
+                <div>
+                    <input type="radio" name="stones" value="Soul" id="soul" />
+                    <label for="reality">Soul</label>
+                </div>
+            </div>
+
+            <legend>Who should of the Black Order shuld Thanos bring?</legend>
+            <div class="group">
+                <div>
+                    <input type="checkbox" name="minions" value="Ebony Maw" id="ebony_maw" />
+                    <label for="reality" for="ebony_maw">Ebony Maw</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="minions" value="Cull Obsidian" id="cull_obsidian" />
+                    <label for="reality" for="cull_obsidian">Cull Obsidian</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="minions" value="Proxima Midnight" id="proxima_midnight" />
+                    <label for="reality" for="proxima_midnight">Proxima Midnight</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="minions" value="Corvus Glaive" id="corvus_glaive" />
+                    <label for="reality" for="corvus_glaive">Corvus Glaive</label>
+                </div>
+            </div>
+            <label for="comments">Comments</label>
+            <textarea name="comments" id="comments" rows="10"></textarea>
+
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

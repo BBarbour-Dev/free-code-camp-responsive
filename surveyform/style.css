@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+  background: #654ea3; /* fallback for old browsers */
+  background: linear-gradient(to right, #b18597, #654ea3) no-repeat center; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.form-wrapper {
+  color: #fafafa;
+  border: 1px solid #363636;
+  background: rgba(0, 0, 0, 0.5);
+  width: 45%;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10vh;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 5px 4px 15px 1px rgba(46, 46, 46, 1);
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 0.9rem;
+  line-height: 1;
+  text-align: center;
+  color: #dfdfdf;
+}
+
+label {
+  display: block;
+}
+
+input {
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 100%;
+  border: 1px solid #363636;
+}
+
+textarea {
+  margin-bottom: 1rem;
+  width: 100%;
+  font-size: 100%;
+  border: 1px solid #363636;
+}
+
+select {
+  font-family: inherit;
+  margin-bottom: 1rem;
+  width: 100%;
+  font-size: 100%;
+  padding: 0.5rem;
+  border: 1px solid #363636;
+}
+
+legend {
+  margin-bottom: 0.5rem;
+}
+
+.group {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.group div {
+  margin-right: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.group label {
+  color: #dfdfdf;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.group input {
+  margin: 0;
+}
+
+button {
+  display: block;
+  width: 100%;
+  border: 1px solid #fafafa;
+  background-color: #363636;
+  text-transform: uppercase;
+  color: #fafafa;
+  height: 2rem;
+  font-size: 1rem;
+}
