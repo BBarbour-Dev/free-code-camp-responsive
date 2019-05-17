@@ -13,3 +13,7 @@ Live: https://steelvoltage.github.io/free_code_camp_responsive/surveyform/
 ## Product Page
 
 Live: https://steelvoltage.github.io/free_code_camp_responsive/productpage/
+
+## Documentation Page
+
+Live: https://steelvoltage.github.io/free_code_camp_responsive/documentationpage/
