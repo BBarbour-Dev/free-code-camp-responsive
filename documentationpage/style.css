@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans");
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
 body {
   display: flex;
   flex-direction: row;
